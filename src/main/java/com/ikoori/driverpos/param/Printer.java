@@ -98,6 +98,7 @@ public class Printer implements Printable {
 		List<_PagerBody> list = printPager.list;
 		
 		float[] dash = { 2.0f };
+		
 		// 设置打印线的属性。虚线="线+缺口+线+缺口+线+缺口……" 
 		// 1.线宽 2.不同的线端 3.当两条线连接时，连接处的形状 4.缺口的宽度(默认10.0f) 5.虚线的宽度 6.偏移量
 		g2.setStroke(new BasicStroke(0.5f, BasicStroke.CAP_BUTT, BasicStroke.JOIN_MITER, 2.0f, dash, 0.0f));
