@@ -1,0 +1,166 @@
+{
+	"header": [{
+		"text": "{$title}",
+		"size": 2,
+		"bold": true,
+		"format": 1,
+		"line": 2,
+		"underline": false,
+		"type": 0
+	},
+	{
+		"text": "品    牌：{$brandName}",
+		"size": 1,
+		"bold": false,
+		"format": 0,
+		"line": 0,
+		"underline": false,
+		"type": 0
+	},
+	{
+		"text": "-{$shopName}",
+		"size": 1,
+		"bold": false,
+		"format": 0,
+		"line": 1,
+		"underline": false,
+		"type": 0
+	},
+	{
+		"text": "桌    号：{$tableNumb}",
+		"size": 1,
+		"bold": false,
+		"format": 0,
+		"line": 0,
+		"underline": false,
+		"type": 0
+	},
+	{
+		"text": "-{$tableName}",
+		"size": 1,
+		"bold": false,
+		"format": 0,
+		"line": 1,
+		"underline": false,
+		"type": 0
+	},
+	{
+		"text": "预点单号：{$barCode}",
+		"size": 1,
+		"bold": false,
+		"format": 0,
+		"line": 1,
+		"underline": false,
+		"type": 0
+	},
+	{
+		"text": "订单编号：{$orderId}",
+		"size": 1,
+		"bold": false,
+		"format": 0,
+		"line": 1,
+		"underline": false,
+		"type": 0
+	},
+	{
+		"text": "单据日期：{$dateTime}",
+		"size": 1,
+		"bold": false,
+		"format": 0,
+		"line": 1,
+		"underline": false,
+		"type": 0
+	},
+	{
+		"text": "------------------------------------------",
+		"size": 1,
+		"bold": false,
+		"format": 0,
+		"line": 1,
+		"underline": false,
+		"type": 0
+	},
+	{
+		"text": "订单金额：",
+		"size": 1,
+		"bold": true,
+		"format": 0,
+		"line": 0,
+		"underline": false,
+		"type": 0
+	},
+	{
+		"text": "{$allPrice}",
+		"size": 2,
+		"bold": true,
+		"format": 0,
+		"line": 1,
+		"underline": false,
+		"type": 0
+	},
+	{
+		"text": "------------------------------------------",
+		"size": 1,
+		"bold": false,
+		"format": 0,
+		"line": 1,
+		"underline": false,
+		"type": 0
+	}],
+	"goods": [{
+		"name": "编码",
+		"width": 4,
+		"variable": "code"
+	},
+	{
+		"name": "名称",
+		"width": 4,
+		"variable": "name"
+	},
+	{
+		"name": "数量",
+		"width": 2,
+		"variable": "quantity"
+	},
+	{
+		"name": "金额",
+		"width": 3,
+		"variable": "price"
+	}],
+	"warn": [{
+		"text": "----------------{$warnTitle}----------------",
+		"size": 1,
+		"bold": false,
+		"format": 0,
+		"line": 1,
+		"underline": false,
+		"type": 0
+	},
+	{
+		"text": "{$warnMsg}",
+		"size": 1,
+		"bold": true,
+		"format": 0,
+		"line": 1,
+		"underline": false,
+		"type": 0
+	}],
+	"msg": [{
+		"text": "-------------{$posTitle}-------------",
+		"size": 1,
+		"bold": false,
+		"format": 0,
+		"line": 1,
+		"underline": false,
+		"type": 0
+	},
+	{
+		"text": "{$posMsg}",
+		"size": 1,
+		"bold": false,
+		"format": 0,
+		"line": 1,
+		"underline": false,
+		"type": 0
+	}]
+}

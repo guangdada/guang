@@ -1,0 +1,9 @@
+{	
+	"msg": [
+	{
+		"text": "{$qrCode}",
+		"format": 1,
+		"line": 1,
+		"type":2
+	}]
+}

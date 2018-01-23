@@ -1,0 +1,99 @@
+{
+	"header": [
+	{
+		"text": "{$title}",
+		"size": 14,
+		"bold": true,
+		"align": 1,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "品    牌：{$brandName}",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": false,
+		"type": 0
+	},
+	{
+		"text": "({$shopName})",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "桌    号：{$tableNumb}",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": false,
+		"type": 0
+	},
+	{
+		"text": "({$tableName})",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"line": true,
+		"type": 2
+	},
+	{
+		"text": "单据编号：{$orderId}",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "单据日期：{$dateTime}",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "支付金额：",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": false,
+		"type": 0
+	},
+	{
+		"text": "{$payPrice}元",
+		"size": 12,
+		"bold": true,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "优惠金额：",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": false,
+		"type": 0
+	},
+	{
+		"text": "{$freePrice}元",
+		"size": 12,
+		"bold": true,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"line": true,
+		"type": 2
+	}]
+}

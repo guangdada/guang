@@ -1,0 +1,23 @@
+{	
+	"msg": [
+	{
+		"text": "{$barCode1}",
+		"format": 0,
+		"line": 0,
+		"type": 1,
+		"posType":72,
+		"width":3,
+		"height":150,
+		"fontShow":2
+	},
+	{
+		"text": "{$barCode2}",
+		"format": 2,
+		"line": 0,
+		"type": 1,
+		"posType":72,
+		"width":3,
+		"height":150,
+		"fontShow":2
+	}]
+}

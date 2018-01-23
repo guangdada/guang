@@ -1,0 +1,43 @@
+{
+	"header": [
+	{
+		"text": "{$title}",
+		"size": 14,
+		"bold": true,
+		"align": 1,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "----------------------------------",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "测试一下",
+		"size": 9,
+		"bold": false,
+		"align": 1,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "您目前正在使用驱动打印，当看到此单据时证明打印设备连接正常",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "----------------------------------",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	}]
+}

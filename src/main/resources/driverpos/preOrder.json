@@ -1,0 +1,170 @@
+{
+	"header": [
+	{
+		"path": "{$path}",
+		"width": 80,
+		"height": 30,
+		"align": 1,
+		"line": true,
+		"type": 1
+	},
+	{
+		"text": "{$title}",
+		"size": 14,
+		"bold": true,
+		"align": 1,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "",
+		"size": 5,
+		"bold": true,
+		"align": 1,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "品    牌：{$brandName}",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": false,
+		"type": 0
+	},
+	{
+		"text": "({$shopName})",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "桌    号：{$tableNumb}",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": false,
+		"type": 0
+	},
+	{
+		"text": "({$tableName})",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "预点单号：{$barCode}",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "订单编号：{$orderId}",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "单据日期：{$dateTime}",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+	    "text": "",
+		"line": true,
+		"type": 2
+	},
+	{
+		"text": "订单金额：{$allPrice}元",
+		"size": 12,
+		"bold": true,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "",
+		"line": true,
+		"type": 2
+	}],
+	"goods": [
+	{
+		"name": "名称",
+		"width": 6,
+		"variable": "name"
+	},
+	{
+		"name": "数量",
+		"width": 2,
+		"variable": "quantity"
+	},
+	{
+		"name": "金额",
+		"width": 2,
+		"variable": "price"
+	}],
+	"msg": [{
+		"text": "",
+		"size": 5,
+		"bold": true,
+		"align": 1,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "总计",
+		"size": 12,
+		"bold": true,
+		"align": 0,
+		"line": false,
+		"type": 0
+	},
+	{
+		"text": "{$allPrice}",
+		"size": 12,
+		"bold": true,
+		"align": 2,
+		"line": true,
+		"type": 0
+	},
+	{
+	    "text": "预点单号：{$barCode}",
+		"line": true,
+		"type": 2
+	},
+	{
+		"path": "{$path}",
+		"width": 80,
+		"height": 30,
+		"align": 1,
+		"line": true,
+		"type": 1
+	},
+	{
+		"text": "",
+		"size": 5,
+		"bold": true,
+		"align": 1,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "{$isPayoff}",
+		"size": 12,
+		"bold": true,
+		"align": 1,
+		"line": true,
+		"type": 0
+	}]
+}

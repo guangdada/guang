@@ -1,0 +1,20 @@
+{
+	"warn": [{
+		"text": "****************{$warnTitle}****************",
+		"size": 1,
+		"bold": false,
+		"format": 0,
+		"line": 1,
+		"underline": false,
+		"type": 0
+	},
+	{
+		"text": "{$warnMsg}",
+		"size": 2,
+		"bold": true,
+		"format": 0,
+		"line": 1,
+		"underline": false,
+		"type": 0
+	}]
+}

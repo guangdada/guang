@@ -1,0 +1,159 @@
+{
+	"header": [
+	{
+		"text": "{$title}",
+		"size": 14,
+		"bold": true,
+		"align": 1,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "品    牌：{$brandName}",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": false,
+		"type": 0
+	},
+	{
+		"text": "({$shopName})",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "桌    号：{$tableNumb}",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": false,
+		"type": 0
+	},
+	{
+		"text": "({$tableName})",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "预点单号：{$barCode}",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "订单编号：{$orderId}",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "单据日期：{$dateTime}",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "--------------------------------",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "订单金额：",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": false,
+		"type": 0
+	},
+	{
+		"text": "{$allPrice}元",
+		"size": 15,
+		"bold": true,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "--------------------------------",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	}],
+	"goods": [{
+		"name": "编码",
+		"width": 8,
+		"variable": "code"
+	},
+	{
+		"name": "名称",
+		"width": 12,
+		"variable": "name"
+	},
+	{
+		"name": "数量",
+		"width": 6,
+		"variable": "quantity"
+	},
+	{
+		"name": "  金额",
+		"width": 8,
+		"variable": "price"
+	}],
+	"warn": [{
+		"text": "-------------{$warnTitle}--------------",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "  ",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "{$warnMsg}",
+		"size": 11,
+		"bold": true,
+		"align": 0,
+		"line": true,
+		"type": 0
+	}],
+	"msg": [{
+		"text": "----------{$posTitle}-----------",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	},
+	{
+		"text": "{$posMsg}",
+		"size": 9,
+		"bold": false,
+		"align": 0,
+		"line": true,
+		"type": 0
+	}]
+}
