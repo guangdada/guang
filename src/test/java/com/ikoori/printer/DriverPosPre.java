@@ -16,6 +16,7 @@ public class DriverPosPre extends BaseTest{
 	
 	@Override
 	public void test() {
+		
 		try {
 			URL url = DriverPosPre.class.getClassLoader().getResource("driverpos/preOrder.json");
 			DriverPos pos = new DriverPos();
